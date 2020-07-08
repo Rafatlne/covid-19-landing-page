@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "LibreBaskerville-Bold";
+    src: url('../../libre-baskerville/LibreBaskerville-Bold.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: 'Mukta-Regular';
+    src: url('../../mukta/Mukta-Regular.ttf') format('truetype');
+}
+
+:root {
+    --main-text-color: #00184D;
+    --main-first-color: #2A81EA;
+    --main-second-color: #F24338;
+    --main-background-color: #ffeeec;
+    --secondary-background-color: #e3efff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mukta-Regular", sans-serif;
+    color: var(--main-text-color);
+}
+
+.bg-blue-1 {
+    background-color: var(--main-first-color);
+}
+
+.bg-blue-2 {
+    background-color: var(--secondary-background-color);
+}
+
+
+.bg-red-1 {
+    background-color: var(--main-second-color);
+}
+
+.bg-red-2 {
+    background-color: var(--main-background-color);
+}
+
+.divider {
+    position: relative;
+    background: #ffeeec;
+}
+
+.font-LibreBaskerville-Bold {
+    font-family: "LibreBaskerville-Bold", sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "LibreBaskerville-Bold", sans-serif;
+}
+
+.text-red-1 {
+    color: var(--main-second-color);
+}
+
+.top-minus-12 {
+    top: -20rem;
+}
+
+.verticalLine-one {
+    border-left: 0.5rem solid var(--main-first-color);
+}
+
+.verticalLine-two {
+    border-left: 0.5rem solid var(--main-second-color);
+}
